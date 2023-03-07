@@ -43,7 +43,6 @@
 # vSeuil = 4.41
 # vSeuil = float(vSeuil)
 
-
 # if pression > pSeuil and volume > vSeuil:
 #     print("Arrêt immédiat")
 # elif pression > pSeuil and volume <= vSeuil:
@@ -52,5 +51,83 @@
 #     print("Diminuer le volume")
 # else:
 #     print("Tout va bien")
+
+# Exercice 6
+# for i in range(10):
+#     mail = input("Entrez votre adresse mail :")
+#     if "@" in mail and mail.endswith(".com"):
+#         print("Adresse mail valide")
+#     else:
+#         print("Adresse mail invalide")
+
+
+# Exercice 7
+# count = 10
+# for i in range(count):
+#     print(i)
+#     i+=1
+
+# Exercice 8
+# mot = input("Entrez un mot :")
+# for i in mot:
+#     print(i)
+
+# Exercice 9
+# a = 0
+# b = 10
+# while a < b:
+#     a+=1
+#     print("A =",a,"et B =",b)
+
+# Exercice 10
+# b = input("Entrez un nombre :")
+# b = int(b)
+# while b > 0:
+#     if b%2 != 0:
+#         print(b)
+#     b-=1
+
+# Exercice 11
+# number = input("Entrez un nombre :")
+# number = int(number)
+# for i in range(number):
+#     if number <= 0 and number >= 10:
+#         print("Le nombre est compris entre 0 et 10")
+#     else:
+#         print("Le nombre n'est pas compris entre 0 et 10")
+#         break
+
+# Exercice 12
+# chaine = input("Entrez une chaine de caractère :")
+# for i in chaine:
+#     print(i)
+
+# liste = [1,2,3,4,5]
+# for i in liste:
+#     print(i)
+
+# i = 0
+# i = int(i)
+# for i in range(0,15,3):
+#     print(i)
+
+# Exercice 13
+# n = input("Entrez un nombre :")
+# n = int(n)
+# i = 0
+# i = int(i)
+# while i <= n:
+#     if i%2 == 0:
+#         print(i)
+#     i+=1
+
+
+
+    
+
+
+
+
+
 
 
