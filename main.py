@@ -88,14 +88,14 @@
 #     b-=1
 
 # Exercice 11
-# number = input("Entrez un nombre :")
+# number = input("Entrez un nombre compris entre 1 et 10 compris :")
 # number = int(number)
-# for i in range(number):
-#     if number <= 0 and number >= 10:
-#         print("Le nombre est compris entre 0 et 10")
-#     else:
-#         print("Le nombre n'est pas compris entre 0 et 10")
-#         break
+
+# while number > 10 or number < 1:
+#     number = input("Entrez un nombre compris entre 1 et 10 compris :")
+#     number = int(number)
+
+# print("Le nombre est",number)
 
 # Exercice 12
 # chaine = input("Entrez une chaine de caractère :")
@@ -108,7 +108,7 @@
 
 # i = 0
 # i = int(i)
-# for i in range(0,15,3):
+# for i in range(1,14,3):
 #     print(i)
 
 # Exercice 13
@@ -120,6 +120,184 @@
 #     if i%2 == 0:
 #         print(i)
 #     i+=1
+
+# Exercice 15 
+# liste =[17, 38, 10, 25, 72]
+# liste.sort()
+# print(liste)
+
+# liste.append(12)
+
+# liste.reverse()
+# print(liste)
+
+# print(liste.index(17))
+
+# liste.remove(38)
+# print(liste)
+
+# print(liste[1:3])
+
+# print(liste[:2])
+
+# print (liste[3:])
+
+# print(liste[:])
+
+# Exercice 16
+# chaine = input("Entrez une chaine de caractère :")
+# chaine = str(chaine)
+# chaine = chaine[::-1]
+# print(chaine)
+
+# Exercice 17
+# chaine = input("Entrez une chaine de caractère :")
+# chaine = str(chaine)
+# chaine = chaine[::-1]
+# if chaine == chaine[::-1]:
+#     print("La chaine est un palindrome")
+# else:
+#     print("La chaine n'est pas un palindrome")
+
+# Exercice 18
+# chaine = input("Entrez une chaine de caractère :")
+# chaine = str(chaine)
+# if "@" in chaine and "." in chaine and len(chaine) - chaine.rfind(".") == 4:
+#     print("Adresse mail valide")
+# else:
+#     print("Adresse mail invalide")
+
+# Exercice 19 
+# truc = []
+# machin = [0.0,0.0,0.0,0.0,0.0]
+# print(truc)
+# print(machin)
+
+# Exercice 20
+# a = 0
+# a = int(a)
+# for a in range(0, 4):
+#     print(a)
+
+# b = 0
+# b = int(b)
+# for b in range(4, 8):
+#     print(b)
+
+# c = 0
+# c = int(c)
+# for c in range(2, 9, 2):
+#     print(c)
+
+# chose = [0,1,2,3,4,5]
+# print(3 in chose)
+# print(6 in chose)
+
+# Exercice 21
+# nombre = input("Entrez un nombre :")
+# nombre = int(nombre)
+# count = 0
+# count = int(count)
+
+# while count < nombre:
+
+#     caractere = ""
+#     caractere = input("Entrez un caractère :")
+#     caractere = str(caractere)
+#     while len(caractere)> 1:
+#         caractere = ""
+#         caractere = input("Saisie incorrect, entrez un caractère :")
+#         caractere = str(caractere)
+#     fichier = open("data.txt", "a")
+#     fichier.write(caractere)
+#     fichier.close()
+#     count+=1
+
+# fichier = open("data.txt", "a")
+# fichier.write("\n")
+# fichier.close()
+
+# Exercice 22
+# fichier = open("data.txt", "r")
+# contenu = fichier.read()
+# fichier.close()
+# contenu = contenu.split("\n")
+# for i in contenu:
+#     if "@" in i and i.endswith(".com"):
+#         print("Adresse mail valide")
+#     else:
+#         print("Adresse mail invalide")
+
+# Exercice 23
+# def compterMots(chaine):
+#     chaine = chaine.split(" ")
+#     dico = {}
+#     for i in chaine:
+#         if i in dico:
+#             dico[i] += 1
+#         else:
+#             dico[i] = 1
+#     return dico
+
+# chaine = input("Entrez une chaine de caractère :")
+# chaine = str(chaine)
+# print(compterMots(chaine))
+
+# Exercice 24
+# def cube(nombre):
+#     return nombre**3
+
+# def volumeSphere(rayon):
+#     return 4/3*3.14*cube(rayon)
+
+# rayon = input("Entrez le rayon d'une sphère :")
+# rayon = int(rayon)
+# print(volumeSphere(rayon))
+
+# Exercice 25
+# def somme(a,b,c):
+#     return a+b+c
+
+# a = ""
+# b = ""
+# c = ""
+
+# while a=="":
+#     a = input("Entrez la valeure de a :")
+#     while not a.isdigit():
+#         a = input("Erreur, entrez la valeure de a :")
+
+# while b=="":
+#     b = input("Entrez la valeure de b :")
+#     while not b.isdigit():
+#         b = input("Erreur, entrez la valeure de b :")
+
+# while c=="":
+#     c = input("Entrez la valeure de c :")
+#     while not c.isdigit():
+#         c = input("Erreur, entrez la valeure de c :")
+
+# a = int(a)
+# b = int(b)
+# c = int(c)
+# print(somme(a,b,c))
+
+# tuple = (a,b,c)
+# a,b,c = tuple
+# print(a,b,c)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
